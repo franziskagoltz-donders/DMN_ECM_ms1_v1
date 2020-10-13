@@ -45,5 +45,17 @@ VII. Scripts
 
 All scripts used for this project will be added to this repository in order.
 
-##more information needs to be added here
+###1 DOWNLOAD FROM HCP 
+###2 DOWNSAMPLE AND SMOOTH DATA 3MM ISOTROPIC
+###3 DO ECM ON DOWNSAMPLED DATA
+###4 STANDARDIZE ECM MAPS
+###5 AVERAGE ECz MAPS ACROSS RUNS
+###6 MAKE DIRECTORY LIST FOR ICA
+###7 DO ICA ON DOWNSAMPLED, SMOOTHED DATA
+###8 COMPUTE MEAN EC OF EACH COMPONENT
+###9 COMBINE MEAN EC OF COMPONENTS TO ONE TXT FILE PER COMPONENT
+
+toevoegen:
+randomise
+SPSS syntax 
 
