@@ -24,6 +24,7 @@ aws_access_key_id = XXXXXX (insert your credentials here)
 aws_secret_access_key = XXXXXX
 
 [default]
+
 aws_access_key_id = XXXXXX 
 
 aws_secret_access_key = XXXXXX
