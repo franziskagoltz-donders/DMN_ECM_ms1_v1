@@ -43,27 +43,28 @@ To be able to execute all necessary analyses, the following software was used: F
 
 VII. Scripts
 
-All scripts used for this project will be added to this repository in order.
+All scripts used for this project will be added to this repository in the following order.
 
-1 DOWNLOAD FROM HCP 
+1 Download from HCP 
 
-2 DOWNSAMPLE AND SMOOTH DATA 3MM ISOTROPIC
+2 Downsample to 3mm isotropic and smooth data 
 
-3 DO ECM ON DOWNSAMPLED DATA
+3 Compute ECM on downsampled, smoothed data
 
-4 STANDARDIZE ECM MAPS
+4 Standardize ECM maps
 
-5 AVERAGE ECz MAPS ACROSS RUNS
+5 Average ECz maps across runs 
 
-6 MAKE DIRECTORY LIST FOR ICA
+6 Make directory list for ICA 
 
-7 DO ICA ON DOWNSAMPLED, SMOOTHED DATA
+7 Compute ICA on downsampled, smoothed data 
 
-8 COMPUTE MEAN EC OF EACH COMPONENT
+8 Compute mean ECz of each relevant ICA component
 
-9 COMBINE MEAN EC OF COMPONENTS TO ONE TXT FILE PER COMPONENT
+9 Combine mean ECz of components to one text file per component
 
 toevoegen:
 randomise ECM; 
-SPSS syntax 
+SPSS syntax; 
+spatial correlations
 
