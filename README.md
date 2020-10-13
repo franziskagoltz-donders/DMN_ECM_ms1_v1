@@ -1,6 +1,6 @@
 # DMN_ECM_ms1_v1
 
-#####this repository is under construction and will soon feature the supporting material for a scientific article####
+#####THIS REPOSITORY IS UNDER CONSTRUCTION AND WILL SOON FEATURE THE SUPPORTING MATERIAL FOR A SCIENTIFIC ARTICLE#### 
 
 This project is based on data of the 1200 subject release of the Human Connectome Project (HCP). Specifically, we used resting state fMRI data of 100 unrelated subjects that were scanned with a customized Siemens 3T Connectome Skyra scanner. Initial steps to access the data are described below.
 
