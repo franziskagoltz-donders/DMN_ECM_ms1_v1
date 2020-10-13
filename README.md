@@ -35,13 +35,15 @@ aws_secret_access_key = XXXXXX
 
 IV. Identifying the files 
 
-ICA FIX-denoised rsfMRI data can be found per subject and per run in the /MNINonLinear/Results directory of the HCP repository. Every subject has data from two sessions with two 15 minute runs each, which results in 1 hour of resting state data in total. Per session, one run was done in left-right (LR) phase encoding direction, one with right-left (RL) phase encoding. For this project, rsfMRI data in NIfTI-1 was used (“rfMRI_REST1_LR_hp2000_clean.nii.gz”; respectively for REST2 and RL phase encoding), due to incompatibility of NIfTI-2 with LIPSIA, the software used for ECM. These files are available in the “FIX extended” package on the HCP repository.
+ICA FIX-denoised rsfMRI data can be found per subject and per run in the /MNINonLinear/Results directory of the HCP repository. Every subject has data from two sessions with two 15 minute runs each, which results in 1 hour of resting state data in total. Per session, one run was done in left-right (LR) phase encoding direction, one with right-left (RL) phase encoding. For this project, rsfMRI data in NIfTI-1 was used (“rfMRI_REST1_LR_hp2000_clean.nii.gz”; respectively for REST2 and RL phase encoding). These files are available in the “FIX extended” package on the HCP repository.
 
 VI. Downloading the software, acquiring necessary files
 
-To be able to execute all necessary analyses, the following software was used: FSL 6.0, MATLAB, and LIPSIA v3.1.0. As student or employee of the University of Bergen, information to obtain a license for MATLAB can be found on https://it.uib.no/en/Matlab. Information about the installation of FSL and SPM can be found on https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation (alternatively http://neuro.debian.net/pkgs/fsl-complete.html ) and https://en.wikibooks.org/wiki/SPM/Installation_on_64bit_Linux#SPM12, respectively. LIPSIA 3 can be downloaded from https://github.com/lipsia-fmri/lipsia. If a cloud machine is used, e.g. a MATE desktop for Ubuntu should be installed on the server machine (see e.g. https://linuxconfig.org/how-to-install-mate-desktop-on-ubuntu-18-04-bionic-beaver-linux). To connect to the desktop, x2go client must be installed on the (physical) client machine, x2go server must be installed on the server (the virtual machine). 
+To be able to execute all necessary analyses, the following software was used: FSL 6.0, MATLAB_R2018a, LIPSIA v3.1.0. As student or employee of the University of Bergen, information to obtain a license for MATLAB can be found on https://it.uib.no/en/Matlab. Information about the installation of FSL can be found on https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation (alternatively http://neuro.debian.net/pkgs/fsl-complete.html ). LIPSIA 3 can be downloaded from https://github.com/lipsia-fmri/lipsia. If a cloud machine is used, e.g. a MATE desktop for Ubuntu should be installed on the server machine (see e.g. https://linuxconfig.org/how-to-install-mate-desktop-on-ubuntu-18-04-bionic-beaver-linux). To connect to the desktop, x2go client must be installed on the (physical) client machine, x2go server must be installed on the server (the virtual machine). 
 
 VII. Scripts
 
-All scripts used for this project will be added to this repository. 
+All scripts used for this project will be added to this repository in order.
+
+##more information needs to be added here
 
