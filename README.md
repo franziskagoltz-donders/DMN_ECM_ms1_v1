@@ -10,7 +10,7 @@ To access the data base, it is necessary to create an account on the db.humancon
 
 II. Choosing the data set
 
-In our project, resting state FIX-denoised fMRI data in volumetric (rather than grayordinate) space were used for spatial group ICA and ECM. These datasets are preprocessed with the HCP minimal preprocessing pipelines as described in Glasser et al. 2013. Further, they are denoised by the ICA-FIX approach, following the ICA-FIX pipeline, which covers temporal preprocessing as well (Smith et al. 2013). All in all, the preprocessed volumetric data is gradient distortion corrected, motion corrected to a single-band reference image, registered to a T1w structural, EPI image distortion corrected, registered to MNI-152 standard space, global mean intensity normalized, brain masked, and minimally temporally high pass filtered (>2000s FWHM). In the present project, datasets were downloaded in volumetric MNI152 space rather than grayordinate CIFTI space, as LIPSIA is not compatible with the NIfTI-2 format. (Therefore, no volume-to-surface mapping had been applied to the data.) However, data in grayordinate space are spatially more precise and should be used if possible. Group ICA results in grayordinate space of 1200 subjects are also available on the repository.
+In our project, resting state FIX-denoised fMRI data in volumetric MNI152 (rather than grayordinate CIFTI) space were used for spatial group ICA and ECM, as LIPSIA (https://github.com/lipsia-fmri/lipsia) is not compatible with the NIfTI-2 format. These datasets are preprocessed with the HCP minimal preprocessing pipelines as described in Glasser et al. 2013. Further, they are denoised by the ICA-FIX approach, following the ICA-FIX pipeline (Smith et al. 2013).
 
 III. Downloading the data
 
