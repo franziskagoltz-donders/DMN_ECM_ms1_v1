@@ -20,9 +20,12 @@ For the present project, we decided to use a UH-IaaS virtual Ubuntu Linux machin
 
 [hcp]    
 aws_access_key_id = XXXXXX (insert your credentials here)
+
 aws_secret_access_key = XXXXXX
+
 [default]
-aws_access_key_id = XXXXXX
+aws_access_key_id = XXXXXX 
+
 aws_secret_access_key = XXXXXX
 
 
