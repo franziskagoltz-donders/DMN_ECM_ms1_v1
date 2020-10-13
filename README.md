@@ -10,7 +10,7 @@ To access the data base, it is necessary to create an account on the db.humancon
 
 II. Choosing the data set
 
-In our project, resting state FIX-denoised fMRI data in volumetric MNI152 (rather than grayordinate CIFTI) space were used for spatial group ICA and ECM, as LIPSIA (https://github.com/lipsia-fmri/lipsia) is not compatible with the NIfTI-2 format. These datasets are preprocessed with the HCP minimal preprocessing pipelines as described in Glasser et al. 2013. Further, they are denoised by the ICA-FIX approach, following the ICA-FIX pipeline (Smith et al. 2013).
+In our project, resting state FIX-denoised fMRI data in volumetric MNI152 (rather than grayordinate CIFTI) space were used for spatial group ICA and ECM, as LIPSIA (https://github.com/lipsia-fmri/lipsia) is not compatible with the NIfTI-2 format. These datasets are preprocessed with the HCP minimal preprocessing pipelines as described in Glasser et al. 2013 and denoised by the ICA-FIX approach, following the ICA-FIX pipeline (Smith et al. 2013).
 
 III. Downloading the data
 
