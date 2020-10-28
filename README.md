@@ -63,8 +63,10 @@ All scripts used for this project will be added to this repository in the follow
 
 9 Combine mean ECz of components to one text file per component
 
-toevoegen:
+10 Spatial correlation between EC maps and independent components
+
+###to be added:
 randomise ECM; 
-SPSS syntax; 
-spatial correlations
+SPSS syntax
+
 
