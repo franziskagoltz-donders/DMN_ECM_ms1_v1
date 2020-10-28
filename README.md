@@ -43,7 +43,7 @@ To be able to execute all necessary analyses, the following software was used: F
 
 VII. Scripts
 
-All scripts used for this project will be added to this repository in the following order.
+All scripts used for this project can be found on this repository in the following order.
 
 0 List of scripts
 
