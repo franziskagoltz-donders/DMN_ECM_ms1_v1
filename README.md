@@ -45,6 +45,8 @@ VII. Scripts
 
 All scripts used for this project will be added to this repository in the following order.
 
+0 List of scripts
+
 1 Download from HCP 
 
 2 Downsample to 3mm isotropic and smooth data 
@@ -65,10 +67,6 @@ All scripts used for this project will be added to this repository in the follow
 
 10 Spatial correlation between EC maps and independent components
 
-11 SPSS syntax for statistics
+11 SPSS syntax for statistics on mean ECz and spatial correlations
 
-###to be added:
-randomise ECM; 
-
-
-
+12 One sample t-test on ECz maps 
