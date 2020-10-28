@@ -65,8 +65,10 @@ All scripts used for this project will be added to this repository in the follow
 
 10 Spatial correlation between EC maps and independent components
 
+11 SPSS syntax for statistics
+
 ###to be added:
 randomise ECM; 
-SPSS syntax
+
 
 
